@@ -1,0 +1,4 @@
+conda create --prefix ./env python=3.8 numpy pandas matplotlib statsmodels jupyter
+conda activate ./env
+conda install -c conda-forge prophet
+pip install plotly
